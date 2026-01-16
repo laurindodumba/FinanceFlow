@@ -28,7 +28,7 @@ Este projeto faz parte da atividade final da disciplina de Android Aplicado na P
 ##  Estrutura do Projeto
 
 
-Resultado alcaçado
+Resultado alcançado
 
 <img width="493" height="817" alt="image" src="https://github.com/user-attachments/assets/f4014641-48c7-4336-9e76-1cb130500c78" />
 
@@ -36,7 +36,7 @@ Resultado alcaçado
 
  git clone https://github.com/laurindodumba/FinanceFlow/tree/main
 
-```bash
+```bas
 
 app/
 ├─ src/main/java/com/example/financeflowv1/
@@ -49,7 +49,6 @@ app/
 │ │ └─ ... 
 │ └─ MainActivity.kt
 └─ build.gradle
-```bash
 
 
 
