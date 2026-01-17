@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -40,7 +41,7 @@ fun Extrato(
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = "EXTRATO",
+                text = "EXTRATOS",
                 color = Color.White,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold
@@ -59,14 +60,19 @@ fun Extrato(
                         .fillMaxWidth()
                         .padding(12.dp)
                 ) {
+
                     Text("Tipo: ${item.tipo}")
                     Text("Valor: R$ ${item.valor}")
                     Text("Data: ${convertMillisToDate(item.data)}")
+                    Text("Descrição: ${item.descricao}")
                 }
+                HorizontalDivider(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 15.dp)
+                )
             }
         }
-
-        // BOTÃO VOLTAR
         Button(
             onClick = { navController.navigate(Routes.MENU) },
             modifier = Modifier

@@ -183,8 +183,10 @@ fun LancamentoForm(
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             RadioButton(
+
                 selected = tipo == "CREDITO",
                 onClick = { onTipoChange("CREDITO") }
+
             )
             Text("Crédito")
 
@@ -216,6 +218,7 @@ fun LancamentoForm(
             label = { Text("Descrição") },
             modifier = Modifier.fillMaxWidth()
         )
+
 
         Spacer(modifier = Modifier.height(8.dp))
 
