@@ -33,6 +33,10 @@ Resultado alcançado
 <img width="493" height="817" alt="image" src="https://github.com/user-attachments/assets/f4014641-48c7-4336-9e76-1cb130500c78" />
 
 
+<img width="342" height="717" alt="image" src="https://github.com/user-attachments/assets/f024fd30-adf5-47f8-9ff7-030fe7759a17" />
+
+
+
 
  git clone https://github.com/laurindodumba/FinanceFlow/tree/main
 
